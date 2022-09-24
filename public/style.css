@@ -28,7 +28,7 @@ body {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
 } 
 
 #ozy h1 {
@@ -127,9 +127,6 @@ body {
 
 
 .poem {
-
-
-   
     position: fixed;
     top: 50%;
     left: 50%;
@@ -145,8 +142,15 @@ body {
 
 }
 
-.poem * {
 
-    z-index: 1000;
+
+#poems {
+
+    z-index: 0;
+    color: white;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
 
 }

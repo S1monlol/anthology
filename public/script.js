@@ -56,8 +56,6 @@ function showPoem(url){
         console.log(data)
         document.getElementById(url + "Poem").classList.add("show");
         document.getElementById(url + "Poem").childNodes[1].textContent = data;
-        
-        
     }
     )
 
