@@ -28,7 +28,7 @@ body {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 80vh;
+    min-height: 150vh;
 } 
 
 #ozy h1 {
@@ -105,9 +105,6 @@ body {
     font-size: 100px;
     /* transform: translateX(-100%); */
 
-    
-
-
 }
 
 
@@ -132,14 +129,10 @@ body {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
-
     border: 1px solid white;
     padding: 20px;
     background-color: black;
     
-
-
 }
 
 
@@ -152,5 +145,36 @@ body {
     place-items: center;
     align-content: center;
     min-height: 100vh;
+    
+    
 
+}
+
+#time {
+
+    color: white;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 80vh;
+
+}
+
+
+
+#time h1 {
+
+    font-size: 50px;
+    margin-bottom: 300px;
+
+}
+
+#wait {
+
+    transition: all 5s;
+}
+
+#timeGrid{
+
+    display: flex;
 }
